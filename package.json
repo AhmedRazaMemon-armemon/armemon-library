@@ -1,0 +1,27 @@
+{
+  "name": "armemon-library",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Monorepo containing multiple packages for UI, utils, navigation, backend tools and more.",
+  "author": "Ahmed Raza Memon (armemon)",
+  "license": "MIT",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@changesets/cli": "^2.29.7",
+    "@types/react": "^19.2.6",
+    "@types/react-native": "^0.72.8",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react": "^7.37.5",
+    "prettier": "^3.6.2",
+    "turbo": "^2.6.1",
+    "typescript": "^5.9.3"
+  }
+}
