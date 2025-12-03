@@ -1,6 +1,6 @@
 # @armemon-library/react-native-ui
 
-A professional React Native UI component library with advanced theming and scaling features.
+A responsive and comprehensive React Native UI library providing an all-in-one solution with customizable, consistent, and developer-friendly components.
 
 ## 📁 Project Structure
 
@@ -207,3 +207,5 @@ MIT
 ## 👤 Author
 
 Ahmed Raza Memon
+[GitHub](https://github.com/AhmedRazaMemon-armemon)
+[LinkedIn](https://www.linkedin.com/in/linkdin-armemon)

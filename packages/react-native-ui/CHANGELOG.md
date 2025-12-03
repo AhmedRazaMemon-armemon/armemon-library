@@ -1,5 +1,11 @@
 # @armemon-library/react-native-ui
 
+## 0.1.5
+
+### Patch Changes
+
+- updated readme
+
 ## 0.1.4
 
 ### Patch Changes
