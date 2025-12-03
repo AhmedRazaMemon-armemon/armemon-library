@@ -1,18 +1,50 @@
 {
   "name": "@armemon-library/react-native-ui",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "src/index.ts",
   "react-native": "src/index.ts",
-  "description": "ARM UI components for React Native",
-  "author": "Ahmed Raza Memon",
+  "types": "src/index.ts",
+  "description": "A responsive and comprehensive React Native UI library providing an all-in-one solution with customizable, consistent, and developer-friendly components",
+  "keywords": [
+    "react-native",
+    "ui",
+    "library",
+    "components",
+    "ios",
+    "android",
+    "theme",
+    "scaling",
+    "typescript",
+    "design-system",
+    "uikit"
+  ],
+  "author": {
+    "name": "Ahmed Raza Memon",
+    "email": "armemon.mail@gmail.com",
+    "url": "https://www.linkedin.com/in/linkdin-armemon"
+  },
+  "maintainers": [
+    {
+      "name": "Ahmed Raza Memon",
+      "email": "armemon.mail@gmail.com"
+    }
+  ],
   "license": "MIT",
   "private": false,
   "publishConfig": {
     "access": "public"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedRazaMemon-armemon/armemon-library.git",
+    "directory": "packages/react-native-ui"
+  },
+  "bugs": {
+    "url": "https://github.com/AhmedRazaMemon-armemon/armemon-library/issues"
+  },
+  "homepage": "https://github.com/AhmedRazaMemon-armemon/armemon-library#readme",
   "scripts": {
-    "build": "echo 'Optional build script here'",
-    "prepare": "npm run build",
+    "build": "tsc",
     "lint": "eslint ."
   },
   "peerDependencies": {
