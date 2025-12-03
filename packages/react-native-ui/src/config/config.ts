@@ -97,3 +97,7 @@ export function configure(userConfig: any = {}) {
 export function getConfig() {
   return store;
 }
+
+// Re-export helpers for convenience
+export { setTheme } from './helpers/theme';
+
