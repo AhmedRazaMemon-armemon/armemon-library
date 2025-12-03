@@ -4,7 +4,7 @@ Monorepo containing multiple packages for UI, utils, navigation, backend tools a
 
 ## Packages
 
-- **@armemon-library/react-native-ui**: ARM UI components for React Native
+- **@armemon-library/react-native-ui**: A responsive and comprehensive React Native UI library providing an all-in-one solution with customizable, consistent, and developer-friendly components
 
 ## Author
 
